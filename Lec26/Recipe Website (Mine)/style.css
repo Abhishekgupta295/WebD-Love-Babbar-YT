@@ -10,7 +10,7 @@
     height: 100%;
     width: 100%;
     background: rgb(2,0,36);
-    background: linear-gradient(85deg, rgba(2,0,36,1) 0%, rgba(9,121,118,1) 21%, rgba(12,238,243,1) 62%);
+    background-color: linear-gradient(85deg, rgba(2,0,36,1) 0%, rgba(9,121,118,1) 21%, rgba(12,238,243,1) 62%);
     /* background-color: aqua; */
     /* display: flex;
     justify-content: space-between; */
@@ -87,6 +87,9 @@ a{
 .rightBox{
     position: relative;
     /* overflow: hidden; */
+    transition: all 0.3s linear 0s;
+    box-shadow: 1px 1px 10px black;
+    border-radius: 20px;
 }
 
 .rightBox img{
